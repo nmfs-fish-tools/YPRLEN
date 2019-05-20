@@ -14,9 +14,8 @@
               Length Based Yield Per Recruit
             </div>
               
-              <div class = "badge" data-md-tooltip="Limited Support" id="greybadge">
-              <!-- &#10039; -->
-              </div>
+              <div class = "badge"  data-md-tooltip=badge_internal_inactive id = badge_internal_inactive> </div>
+
               
               
               <div class = "badge" data-md-tooltip="Not Validated" id="greycheck">
@@ -47,9 +46,11 @@
               
 
               
-                <button class = "codelink" id = "nolink">
-                Associated Tools
+              <a href= "https://github.com/nmfs-fish-tools/YPRLEN.git" target="_blank" title="link to code repository">
+                <button class = "codelink">
+                Code Repository
                 </button>
+              </a>
               
               <button class = "IconButton" title="need support?">
                 ?
@@ -68,19 +69,17 @@
               </div>
 
               
-              <a class = "pdfIcon" id = "nolink">
-              </a>
 
-              
-
-              <a class = "githubIcon" href="https://github.com/nmfs-fish-tools/YPRLEN.git" target="_blank"></a>
+              <!-- <a class = "githubIcon" href="https://github.com/nmfs-fish-tools/YPRLEN.git" target="_blank"></a> -->
 
               <button class = "versionButton">
               Version 2.1
               </button>
         </div>
         <div class ="label">
-              Type:  
+            
+             Type: associated tool
+            
         </div>
 
         <div class = "authName">
@@ -89,19 +88,19 @@
         </div >
 
         <div class ="mainText">
+          Length Based Yield per Recruit (YPRLEN) is an implementation of the basic Thompson-Bell model for estimating the expected lifetime yield and biomass from a cohort subjected to varying levels of fishing mortality.  In the length-based model the user provides parameters of a von Bertalanffy growth equation. Age is taken as relative with the model starting at age zero. The user also provides parameters for equations relating weight, selectivity and maturity to length.  The user provides a small age step as an integration factor. This is converted to length by the von Bertalanffy equation and the other required data is derived from length.  This approach may in many cases provide a more accurate lifetime yield and biomass curve than the traditional age-based YPR model.  In the September 2004 update of YPRLEN, several alternative selectivity models were introduced.  Users can export an age-based file that can be used as input to the age-based YPR model.
+        </div>
+        <div class="mainText">
+        
+
           
-        </div>
-        <div class = "ref">
-            References
-        </div>
-        <div class ="mainText">
-            <ul>
-              
-            </ul>
-        </div>
+            </div>
       </div>
 
-
+      <div class = "divider"></div>
+        <footer> <a class ="mylink" href="https://www.commerce.gov/">U.S. Department of Commerce</a>
+    <a class ="mylink" href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a>
+    <a class ="mylink" href="https://www.fisheries.noaa.gov/">NOAA Fisheries</a></footer>
 
     </div>
 
