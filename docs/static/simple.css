@@ -39,12 +39,15 @@
     font-size: 36px;
     text-align: left;
     padding: 5px;
+    font-weight: normal;
 }
 
-#nolink{
+.codelink.nolink{
   color:#d1d3de;
+  pointer-events: none;
 
 }
+
 a{
  text-decoration: none;
  color: black;
@@ -297,7 +300,7 @@ li{
 }
 
 
-#line{
+.line{
   border-right:1px solid black;
 }
 
